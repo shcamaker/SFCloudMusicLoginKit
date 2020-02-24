@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFCloudMusicLoginKit'
-  s.version          = '0.3.0'
+  s.version          = '0.5.1'
   s.summary          = 'SFCloudMusicLoginKit.'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,8 @@ A short description of SFCloudMusicLoginKit
   s.source           = { :git => 'https://github.com/shcamaker/SFCloudMusicLoginKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift-version = '5.0'
   s.ios.deployment_target = '8.0'
-  
   s.source_files = 'SFCloudMusicLoginKit/Classes/**/*'
   
   # s.resource_bundles = {

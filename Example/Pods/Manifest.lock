@@ -8,7 +8,7 @@ PODS:
   - RxRelay (5.0.1):
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
-  - SFCloudMusicLoginKit (0.2.0):
+  - SFCloudMusicLoginKit (0.5.0):
     - Action
     - RxCocoa (~> 5)
     - RxSwift (~> 5)
@@ -32,7 +32,7 @@ SPEC CHECKSUMS:
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
-  SFCloudMusicLoginKit: 7a0406e41809d1666c49c3a2c1a5f775af9023c1
+  SFCloudMusicLoginKit: 4a56177ea62fd6c382aa302c136f8b06774f85d0
 
 PODFILE CHECKSUM: ce3555929c07d55aeb12a96218d33f18d0b67b18
 
