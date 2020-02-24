@@ -5,6 +5,6 @@ use_frameworks!
 target 'SFCloudMusicLoginKit_Example' do
   pod 'SFCloudMusicLoginKit', :path => '../'
 
- 
+ pod 'CTMediator'
     
 end

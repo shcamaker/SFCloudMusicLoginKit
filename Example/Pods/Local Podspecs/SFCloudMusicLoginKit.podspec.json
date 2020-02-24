@@ -1,6 +1,6 @@
 {
   "name": "SFCloudMusicLoginKit",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "summary": "SFCloudMusicLoginKit.",
   "description": "A short description of SFCloudMusicLoginKit",
   "homepage": "https://github.com/shcamaker/SFCloudMusicLoginKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shcamaker/SFCloudMusicLoginKit.git",
-    "tag": "0.5.0"
+    "tag": "0.5.2"
   },
   "platforms": {
     "ios": "8.0"
