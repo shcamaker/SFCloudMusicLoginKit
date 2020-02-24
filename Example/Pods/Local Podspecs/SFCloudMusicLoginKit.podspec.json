@@ -1,0 +1,33 @@
+{
+  "name": "SFCloudMusicLoginKit",
+  "version": "0.2.0",
+  "summary": "SFCloudMusicLoginKit.",
+  "description": "A short description of SFCloudMusicLoginKit",
+  "homepage": "https://github.com/shcamaker/SFCloudMusicLoginKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alex.Shen": "alex.shen@wesoft.com"
+  },
+  "source": {
+    "git": "https://github.com/shcamaker/SFCloudMusicLoginKit.git",
+    "tag": "0.2.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SFCloudMusicLoginKit/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 5"
+    ],
+    "RxCocoa": [
+      "~> 5"
+    ],
+    "Action": [
+
+    ]
+  }
+}

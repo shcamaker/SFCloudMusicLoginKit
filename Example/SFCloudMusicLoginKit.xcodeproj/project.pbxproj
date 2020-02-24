@@ -14,7 +14,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7B74A2D586B000388637B77D /* Pods_SFCloudMusicLoginKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B1F81B33A25E003DE1BBBA /* Pods_SFCloudMusicLoginKit_Example.framework */; };
-		A696B4DDE22E46CCEFE56CCA /* Pods_SFCloudMusicLoginKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CFB2F2A01A60FD6EADF23D /* Pods_SFCloudMusicLoginKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17CFB2F2A01A60FD6EADF23D /* Pods_SFCloudMusicLoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFCloudMusicLoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AEDBC4A96D96586C15E6DA7 /* Pods-SFCloudMusicLoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicLoginKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicLoginKit_Tests/Pods-SFCloudMusicLoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F9782DB5797C4B709E369AB /* Pods-SFCloudMusicLoginKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicLoginKit_Example.release.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicLoginKit_Example/Pods-SFCloudMusicLoginKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SFCloudMusicLoginKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFCloudMusicLoginKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +39,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6A914EF95110C37A0A914A67 /* Pods-SFCloudMusicLoginKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicLoginKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicLoginKit_Example/Pods-SFCloudMusicLoginKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8232477FE0BFCB5168E3CA4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9027DCB23243B7511AD503BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		951DA210250ADFE18B47761F /* Pods-SFCloudMusicLoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicLoginKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicLoginKit_Tests/Pods-SFCloudMusicLoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8232477FE0BFCB5168E3CA4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9027DCB23243B7511AD503BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A1B1F81B33A25E003DE1BBBA /* Pods_SFCloudMusicLoginKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFCloudMusicLoginKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF1C0C0DD36E5560EC287B2A /* SFCloudMusicLoginKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SFCloudMusicLoginKit.podspec; path = ../SFCloudMusicLoginKit.podspec; sourceTree = "<group>"; };
+		EF1C0C0DD36E5560EC287B2A /* SFCloudMusicLoginKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SFCloudMusicLoginKit.podspec; path = ../SFCloudMusicLoginKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A696B4DDE22E46CCEFE56CCA /* Pods_SFCloudMusicLoginKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +69,7 @@
 			children = (
 				6A914EF95110C37A0A914A67 /* Pods-SFCloudMusicLoginKit_Example.debug.xcconfig */,
 				5F9782DB5797C4B709E369AB /* Pods-SFCloudMusicLoginKit_Example.release.xcconfig */,
-				3AEDBC4A96D96586C15E6DA7 /* Pods-SFCloudMusicLoginKit_Tests.debug.xcconfig */,
-				951DA210250ADFE18B47761F /* Pods-SFCloudMusicLoginKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				A1B1F81B33A25E003DE1BBBA /* Pods_SFCloudMusicLoginKit_Example.framework */,
-				17CFB2F2A01A60FD6EADF23D /* Pods_SFCloudMusicLoginKit_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,7 +177,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SFCloudMusicLoginKit_Tests" */;
 			buildPhases = (
-				E7F09753B05160F0A1F11FED /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -227,6 +217,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,28 +275,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E7F09753B05160F0A1F11FED /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SFCloudMusicLoginKit_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E85E468C97091BBF6041970A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,10 +282,18 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SFCloudMusicLoginKit_Example/Pods-SFCloudMusicLoginKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SFCloudMusicLoginKit/SFCloudMusicLoginKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SFCloudMusicLoginKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,7 +482,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AEDBC4A96D96586C15E6DA7 /* Pods-SFCloudMusicLoginKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +503,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 951DA210250ADFE18B47761F /* Pods-SFCloudMusicLoginKit_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
