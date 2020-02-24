@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SFCloudMusicLoginKit_Example' do
+  pod 'SFCloudMusicLoginKit', :path => '../'
+
+  target 'SFCloudMusicLoginKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
